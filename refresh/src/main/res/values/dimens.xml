@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="classic_header_icon_text_margin">48dp</dimen>
+    <dimen name="classic_footer_icon_text_margin">8dp</dimen>
+    <dimen name="classic_load_more_footer_height">60dp</dimen>
+    <dimen name="classic_refresh_header_height">80dp</dimen>
+
+</resources>

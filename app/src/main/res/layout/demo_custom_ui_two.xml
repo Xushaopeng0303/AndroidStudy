@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_ui_tag_segment"
+            style="@style/TextItem"
+            android:text="@string/tab_ui_switch_button" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.xsp.library.view.switcher.SwitchButton
+                android:id="@+id/switch_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <com.xsp.library.view.switcher.SwitchButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:sb_enable_effect="false" />
+
+            <com.xsp.library.view.switcher.SwitchButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:sb_checked="false"
+                app:sb_checked_color="#fdc951" />
+
+            <com.xsp.library.view.switcher.SwitchButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:sb_checked="false"
+                app:sb_show_indicator="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.xsp.library.view.switcher.SwitchButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:sb_background="@android:color/white"
+                app:sb_checked="false"
+                app:sb_border_width="1dp"
+                app:sb_button_color="@android:color/white"
+                app:sb_checked_color="@android:color/holo_green_light"
+                app:sb_checkline_color="@android:color/holo_red_light"
+                app:sb_checkline_width="1dp"
+                app:sb_uncheck_color="@android:color/darker_gray"
+                app:sb_uncheckcircle_color="@color/blue"
+                app:sb_uncheckcircle_width="2dp"
+                app:sb_uncheckcircle_radius="5dp"/>
+
+            <com.xsp.library.view.switcher.SwitchButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:sb_background="#ffffff"
+                app:sb_button_color="#db99c7"
+                app:sb_checked_color="#A36F95"
+                app:sb_checkline_color="#a5dc88"
+                app:sb_shadow_color="#A36F95"
+                app:sb_uncheckcircle_color="#A36F95" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

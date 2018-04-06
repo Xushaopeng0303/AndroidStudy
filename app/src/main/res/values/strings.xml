@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- 公共字段 -->
+    <string name="app_name">单细胞徐</string>
+    <string name="common_image_description">图片</string>
+    <string name="common_scheme">sam_tribe</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_ok">确定</string>
+    <string name="common_menu">菜单</string>
+    <string name="common_exit_toast">再次点击退出应用!</string>
+    <string name="common_add">+</string>
+    <string name="common_remove">-</string>
+    <string name="common_resolve_to_develop">待开发，敬请期待</string>
+    <string name="common_item_up_title">Item Up Title</string>
+    <string name="common_item_down_title">This is an item down title description</string>
+
+
+    <!-- 首页底部Tab -->
+    <string name="tab_ui">Custom</string>
+    <string name="tab_function">Material</string>
+    <string name="tab_frame">Frame</string>
+    <string name="tab_advanced">Advanced</string>
+
+    <!-- UI 界面 -->
+    <string name="tab_ui_drop_down_menu">下拉菜单DropDownMenu</string>
+    <string name="tab_ui_circle_progress">圆形进度条CircleProgress</string>
+    <string name="tab_ui_tag_flow">胶囊TagFlow</string>
+    <string name="tab_ui_canvas">画布Canvas</string>
+    <string name="tab_ui_switch_button">选择器SwitchButton</string>
+    <string name="tab_ui_progress_bar">动画进度条ProgressBar</string>
+    <string name="tab_ui_tab_segment">分段Tab</string>
+
+    <!-- 功能界面 -->
+    <string name="tab_fun_tab_layout">TabLayout</string>
+    <string name="tab_fun_coordinator_layout">CoordinatorLayout</string>
+    <string name="tab_fun_snack_bar">SnackBar</string>
+    <string name="tab_fun_navigation_view">NavigationView</string>
+    <string name="tab_fun_text_input_layout">TextInputLayout</string>
+    <string name="tab_fun_floating_action_button">FloatingActionButton</string>
+    <string name="tab_fun_collapsing_tool_bar_layout">CollapsingToolbarLayout</string>
+    <string name="tab_fun_tool_bar_layout">ToolbarLayout</string>
+
+    <!-- 框架界面 -->
+    <string name="tab_frame_android_graph">Android Knowledge Graph</string>
+    <string name="tab_frame_git_hub">GitHub</string>
+    <string name="tab_frame_event_bus">EventBus</string>
+
+    <!-- 高级进阶 -->
+    <string name="tab_advanced_animation">Animation</string>
+    <string name="tab_advanced_transition_system">System Transition</string>
+    <string name="tab_advanced_transition">Transition</string>
+
+    <!-- GitHub 链接 -->
+    <string name="git_hub_android_process">判断App位于前台或者后台的6种方法 </string>
+
+    <!-- 一些杂乱的数据 -->
+    <string name="event_bus_send_text">发送数据，发挥接收页面瞅瞅</string>
+    <string name="event_bus_jump_to_send">注册完毕，去发送界面试试手气</string>
+    <string name="event_bus_send_self">注册完毕，自产自销</string>
+    <string name="drop_down_content">内容显示区域</string>
+    <string name="click_to_see_effect">点击查看效果</string>
+    <string name="click_to_finish">点击返回</string>
+
+
+    <!-- Android Design Support Library -->
+    <string name="material_coordinator_search_text">搜索关键词</string>
+    <string name="header_scrolling_behavior">com.xsp.framework.activity.material.behavior.HeaderScrollingBehavior</string>
+    <string name="header_float_behavior">com.xsp.framework.activity.material.behavior.HeaderFloatBehavior</string>
+
+    <!-- Android 动画 -->
+    <string name="animation_tween">Tween</string>
+    <string name="animation_alpha">Alpha</string>
+    <string name="animation_scale">Scale</string>
+    <string name="animation_translate">Translate</string>
+    <string name="animation_rotate">Rotate</string>
+    <string name="animation_frame">Frame:</string>
+    <string name="animation_start">Start</string>
+    <string name="animation_stop">Stop</string>
+    <string name="translate_direct">直接跳转</string>
+    <string name="translate_direct_with_animate">延迟动画</string>
+
+    <string name="custom_ui_progress_bar_start">动画开始</string>
+    <string name="custom_ui_progress_bar_frame">帧动画</string>
+    <string name="custom_ui_progress_bar_null">无动画</string>
+    <string name="custom_ui_progress_bar_rotate">旋转动画</string>
+    <string name="custom_ui_progress_bar_scale">缩放动画</string>
+    <string name="custom_ui_progress_bar_rotate_scale">旋转缩放</string>
+
+</resources>

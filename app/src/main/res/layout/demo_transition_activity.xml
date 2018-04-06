@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/id_translate_container"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/common_bg_header">
+
+        <TextView
+            android:id="@+id/id_translate_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="140dp"
+            android:background="@android:color/holo_red_dark"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/material_coordinator_search_text"
+            android:textColor="@android:color/darker_gray"
+            android:tag="TranslateContainer"
+            android:transitionName="sharedView"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/id_translate_direct"
+        style="@style/TextItem"
+        android:layout_above="@+id/id_translate_direct_with_animate"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/translate_direct" />
+
+    <Button
+        android:id="@+id/id_translate_direct_with_animate"
+        style="@style/TextItem"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/translate_direct_with_animate" />
+</RelativeLayout>

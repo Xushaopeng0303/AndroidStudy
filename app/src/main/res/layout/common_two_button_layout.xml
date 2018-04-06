@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/id_common_top_btn"
+        style="@style/TextItem"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/id_common_show_text"
+        style="@style/TextItem"
+        android:layout_below="@id/id_common_top_btn"
+        android:visibility="gone"/>
+
+
+    <Button
+        android:id="@+id/id_common_bottom_btn"
+        style="@style/TextItem"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+</RelativeLayout>

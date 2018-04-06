@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ChangeColorIconView">
+        <attr name="c_icon" format="reference" />
+        <attr name="c_color" format="color" />
+        <attr name="c_text" format="string" />
+        <attr name="c_text_size" format="dimension" />
+    </declare-styleable>
+
+    <!-- material design style menu -->
+    <declare-styleable name="MaterialMenuView">
+        <attr name="mm_color" format="color"/>
+        <attr name="mm_visible" format="boolean"/>
+        <attr name="mm_scale" format="integer"/>
+        <attr name="mm_transformDuration" format="integer"/>
+        <attr name="mm_strokeWidth" format="integer"/>
+        <attr name="mm_rtlEnabled" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="SwipeToLoadLayout">
+        <attr name="refresh_enabled" format="boolean" />
+        <attr name="load_more_enabled" format="boolean" />
+
+        <attr name="swipe_style" format="enum">
+            <enum name="classic" value="0" />
+            <enum name="above" value="1" />
+            <enum name="blew" value="2" />
+            <enum name="scale" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <!-- TagFlowLayout -->
+    <declare-styleable name="TagFlowLayout">
+        <!--自动选中-->
+        <attr name="auto_select_effect" format="boolean" />
+        <!--最大选中数量-->
+        <attr name="max_select" format="integer" />
+        <!--布局方式-->
+        <attr name="gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!-- 分段显示 -->
+    <declare-styleable name="TabSegment">
+        <attr name="cornerRadius" format="dimension|reference" />
+        <attr name="colors" format="color|reference" />
+        <attr name="texts" format="string|reference" />
+        <attr name="android:textSize" />
+        <attr name="direction" format="enum">
+            <enum name="horizon" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="horizonGap" format="dimension|reference" />
+        <attr name="verticalGap" format="dimension|reference" />
+    </declare-styleable>
+
+    <!-- DropDownMenu -->
+    <declare-styleable name="DropDownMenu">
+        <attr name="dropUnderlineColor" format="color"/>
+        <attr name="dropDividerColor" format="color"/>
+        <attr name="dropTextSelectedColor" format="color"/>
+        <attr name="dropTextUnselectedColor" format="color"/>
+        <attr name="dropBackgroundColor" format="color"/>
+        <attr name="dropMaskColor" format="color"/>
+        <attr name="dropTextSize" format="dimension"/>
+        <attr name="dropSelectedIcon" format="reference"/>
+        <attr name="dropUnselectedIcon" format="reference"/>
+    </declare-styleable>
+
+    <!-- LoomingTextView -->
+    <declare-styleable name="LoomingTextView">
+        <attr name="startColor" format="color"/>
+        <attr name="middleColor" format="color"/>
+        <attr name="endColor" format="color"/>
+        <attr name="refreshFrequency" format="integer"/>
+    </declare-styleable>
+
+    <!-- SwitchButton -->
+    <declare-styleable name="SwitchButton">
+        <attr name="sb_checkline_color" format="reference|color"/>          <!-- 选中指示线颜色 -->
+        <attr name="sb_checkline_width" format="reference|dimension"/>      <!-- 选中指示线宽度 -->
+        <attr name="sb_uncheckcircle_color" format="reference|color"/>      <!-- 未选中圆圈颜色 -->
+        <attr name="sb_uncheckcircle_width" format="reference|dimension"/>  <!-- 未选中圆圈宽度 -->
+        <attr name="sb_uncheckcircle_radius" format="reference|dimension"/> <!-- 未选中圆圈弧度 -->
+
+        <attr name="sb_checked" format="reference|boolean"/>                <!-- 默认是否选中 -->
+        <attr name="sb_background" format="reference|color"/>               <!-- 背景色 -->
+        <attr name="sb_button_color" format="reference|color"/>             <!-- 圆形按钮颜色 -->
+        <attr name="sb_border_width" format="reference|dimension"/>         <!-- 周围线宽 -->
+        <attr name="sb_show_indicator" format="reference|boolean"/>         <!-- 是否展示指示器 -->
+
+        <attr name="sb_checked_color" format="reference|color"/>            <!-- 选中时背景色 -->
+        <attr name="sb_uncheck_color" format="reference|color"/>            <!-- 未选中时背景色 -->
+
+
+        <attr name="sb_enable_effect" format="reference|boolean"/>          <!-- 是否又滑动 Effect -->
+        <attr name="sb_effect_duration" format="reference|integer"/>
+        <attr name="sb_shadow_effect" format="reference|boolean"/>
+        <attr name="sb_shadow_radius" format="reference|dimension"/>
+        <attr name="sb_shadow_offset" format="reference|dimension"/>
+        <attr name="sb_shadow_color" format="reference|color"/>
+    </declare-styleable>
+
+    <!-- AnimProgressBar -->
+    <declare-styleable name="AnimProgressBar">
+        <attr name="backGroundColor" format="color" />
+        <attr name="barColor" format="color" />
+        <attr name="drawable" format="reference" />
+        <attr name="halfDrawableWidth" format="dimension" />
+        <attr name="halfDrawableHeight" format="dimension" />
+        <attr name="drawableHeightOffset" format="dimension" />
+        <attr name="isRound" format="boolean" />
+        <attr name="roundX" format="dimension" />
+        <attr name="roundY" format="dimension" />
+        <attr name="progress" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="isSetBar" format="boolean" />
+        <attr name="progressHeight" format="dimension" />
+        <attr name="progressHeightOffset" format="dimension" />
+        <attr name="refreshTime" format="integer" />
+        <attr name="animMode" format="enum">
+            <enum name="ANIM_NULL" value="0" />
+            <enum name="ANIM_ROTATE" value="1" />
+            <enum name="ANIM_SCALE" value="2" />
+            <enum name="ANIM_ROTATE_SCALE" value="3" />
+            <enum name="ANIM_FRAME" value="4" />
+        </attr>
+        <attr name="rotateRate" format="integer" />
+        <attr name="rotateDegree" format="integer" />
+        <attr name="scaleMax" format="float" />
+        <attr name="scaleMin" format="float" />
+        <attr name="scaleRate" format="float" />
+        <attr name="isGradient" format="boolean" />
+        <attr name="gradientStartColor" format="color" />
+        <attr name="gradientEndColor" format="color" />
+    </declare-styleable>
+
+
+</resources>

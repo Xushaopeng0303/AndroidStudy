@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Refresh</string>
+    <string name="classic_refresh_swipe_to_refresh">SWIPE TO REFRESH</string>
+    <string name="classic_refresh_release_to_refresh">RELEASE TO REFRESH</string>
+    <string name="classic_refresh_refreshing">REFRESHING</string>
+    <string name="classic_refresh_complete">COMPLETE</string>
+    <string name="classic_refresh_swipe_to_load_more">SWIPE TO LOAD MORE</string>
+    <string name="classic_refresh_release_to_load_more">RELEASE TO LOAD MORE</string>
+    <string name="classic_refresh_loading_more">LOADING MORE</string>
+</resources>

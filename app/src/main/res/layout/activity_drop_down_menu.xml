@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.xsp.library.view.dropdownmenu.DropDownMenu
+        android:id="@+id/drop_down_menu"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:dropTextSize="13sp"
+        app:dropTextUnselectedColor="@color/drop_down_unselected"
+        app:dropTextSelectedColor="@color/drop_down_selected"
+        app:dropDividerColor="@color/gray"
+        app:dropUnderlineColor="@color/gray"
+        app:dropSelectedIcon="@mipmap/drop_down_selected_icon"
+        app:dropMaskColor="@color/drop_down_mask_color"
+        app:dropBackgroundColor="@color/white"
+        app:dropUnselectedIcon="@mipmap/drop_down_unselected_icon" />
+
+</LinearLayout>

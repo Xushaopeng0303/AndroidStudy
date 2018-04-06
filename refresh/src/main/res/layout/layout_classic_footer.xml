@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.refresh.swipe.footer.ClassicLoadMoreFooterView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/classic_load_more_footer_height">
+
+        <ProgressBar
+            android:id="@+id/id_pb_progress"
+            style="?android:attr/progressBarStyleSmallInverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/classic_footer_icon_text_margin"
+            android:layout_marginEnd="@dimen/classic_footer_icon_text_margin"
+            android:layout_toLeftOf="@+id/id_tv_load_more"
+            android:layout_toStartOf="@+id/id_tv_load_more"/>
+
+        <ImageView
+            android:id="@+id/id_iv_success"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/classic_footer_icon_text_margin"
+            android:layout_marginEnd="@dimen/classic_footer_icon_text_margin"
+            android:layout_toLeftOf="@+id/id_tv_load_more"
+            android:layout_toStartOf="@+id/id_tv_load_more"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:background="@drawable/classic_refresh_success"/>
+
+        <TextView
+            android:id="@+id/id_tv_load_more"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/classic_refresh_swipe_to_load_more"/>
+    </RelativeLayout>
+</com.refresh.swipe.footer.ClassicLoadMoreFooterView>

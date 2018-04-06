@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <Button
+        android:id="@+id/id_progress_bar_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_ui_progress_bar_start" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_ui_progress_bar_frame" />
+
+    <com.xsp.library.view.progressbar.AnimProgressBar
+        android:id="@+id/id_progress_bar_frame"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:animMode="ANIM_FRAME"
+        app:drawable="@drawable/progress_bar_custom_bg"
+        app:drawableHeightOffset="0dp"
+        app:gradientEndColor="#ffff00"
+        app:gradientStartColor="#ff0000"
+        app:isGradient="true"
+        app:isSetBar="true"
+        app:max="1000"
+        app:progressHeight="10dp"
+        app:progressHeightOffset="15dp"
+        app:refreshTime="100"
+        app:rotateRate="30"
+        app:scaleMax="1.8"
+        app:scaleMin="0.5"
+        app:scaleRate="0.1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_ui_progress_bar_null" />
+
+    <com.xsp.library.view.progressbar.AnimProgressBar
+        android:id="@+id/id_progress_bar_null"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:animMode="ANIM_NULL"
+        app:drawable="@mipmap/progress_bar_zero"
+        app:gradientEndColor="#ffff00"
+        app:gradientStartColor="#ff0000"
+        app:halfDrawableHeight="20dp"
+        app:halfDrawableWidth="20dp"
+        app:isGradient="true"
+        app:max="1000"
+        app:roundX="20dp"
+        app:roundY="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_ui_progress_bar_rotate" />
+
+    <com.xsp.library.view.progressbar.AnimProgressBar
+        android:id="@+id/id_progress_bar_rotate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:animMode="ANIM_ROTATE"
+        app:drawable="@drawable/progress_bar_custom_bg"
+        app:gradientEndColor="#00ff00"
+        app:gradientStartColor="#ff00ff"
+        app:halfDrawableHeight="15dp"
+        app:halfDrawableWidth="15dp"
+        app:isGradient="true"
+        app:isSetBar="true"
+        app:max="1000"
+        app:progressHeight="10dp"
+        app:rotateRate="15"
+        app:roundX="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_ui_progress_bar_scale" />
+
+    <com.xsp.library.view.progressbar.AnimProgressBar
+        android:id="@+id/id_progress_bar_scale"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:animMode="ANIM_SCALE"
+        app:drawable="@drawable/progress_bar_custom_bg"
+        app:gradientEndColor="#00ff00"
+        app:gradientStartColor="#0000ff"
+        app:halfDrawableHeight="15dp"
+        app:halfDrawableWidth="15dp"
+        app:isGradient="true"
+        app:isSetBar="true"
+        app:max="1000"
+        app:progressHeight="10dp"
+        app:roundX="20dp"
+        app:scaleMax="1.6"
+        app:scaleMin="0.4"
+        app:scaleRate="0.1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_ui_progress_bar_rotate_scale" />
+
+    <com.xsp.library.view.progressbar.AnimProgressBar
+        android:id="@+id/id_progress_bar_rotate_scale"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:animMode="ANIM_ROTATE_SCALE"
+        app:drawable="@drawable/progress_bar_custom_bg"
+        app:gradientEndColor="#00ffaa"
+        app:gradientStartColor="#aa00ff"
+        app:halfDrawableHeight="15dp"
+        app:halfDrawableWidth="15dp"
+        app:isGradient="true"
+        app:isSetBar="true"
+        app:max="1000"
+        app:progressHeight="10dp"
+        app:rotateRate="15"
+        app:roundX="20dp"
+        app:scaleMax="1.6"
+        app:scaleMin="0.4"
+        app:scaleRate="0.1" />
+</LinearLayout>

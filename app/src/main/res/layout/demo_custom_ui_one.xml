@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:id="@+id/id_circle_progress_title"
+        style="@style/TextItem"
+        android:text="@string/tab_ui_circle_progress"/>
+
+    <com.xsp.framework.view.CircleProgressView
+        android:id="@+id/id_circle_progress_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TextView
+        android:id="@+id/id_ui_tag_flow_title"
+        style="@style/TextItem"
+        android:text="@string/tab_ui_tag_flow"/>
+
+    <com.xsp.library.view.flow.TagFlowLayout
+        android:id="@+id/id_tag_flow_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        app:gravity="left"
+        app:max_select="5" />
+
+    <TextView
+        android:id="@+id/id_ui_tag_segment"
+        style="@style/TextItem"
+        android:text="@string/tab_ui_tab_segment"/>
+
+    <com.xsp.library.view.segment.TabSegment
+        android:id="@+id/id_tag_segment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="13sp"
+        android:gravity="center_horizontal"
+        app:texts="我的好友|同学|同事|老师"
+        app:colors="@color/green"
+        app:cornerRadius="5dp"
+        app:direction="horizon"
+        app:horizonGap="8dp"
+        app:verticalGap="8dp" />
+</LinearLayout>
